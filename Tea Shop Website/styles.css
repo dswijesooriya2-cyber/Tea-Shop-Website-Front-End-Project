@@ -423,7 +423,7 @@ transform: scale(110%);
   line-height: 1.5;
 }
 
-/* Social icons */
+
 .social-icons {
   display: flex;
   gap: 0.8rem;
@@ -433,7 +433,7 @@ transform: scale(110%);
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-color: #f4a261; /* Example color */
+  background-color: #f4a261; 
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -446,19 +446,15 @@ transform: scale(110%);
   background-color: #e76f51;
 }
 
-/* Secondary photo grid */
 .second-photo {
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 0;
 }
-
-/* Photo grid for smaller images */
 .photo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-
 }
 
 .photo img {
@@ -468,14 +464,6 @@ transform: scale(110%);
   object-fit: cover;
   margin-top:1px;
 }
-
-/* Responsive adjustments */
-
-
-
-
-
-
 .heading{
    text-align: center; 
 }
@@ -500,13 +488,14 @@ transform: scale(110%);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: var(--box-shadow);
-    
+    box-shadow: var(--box-shadow);    
 }
+
 .product-container .box:hover{
      background-color: var(--secondary-color);
     transform: scale(105%);
 }
+
 .product-container img{
     width: 100%;
     height: 250px;
@@ -516,6 +505,7 @@ transform: scale(110%);
     border-radius: 8px;
     background: #f1f1f1;
 }
+
 .product-container .box h3{
     font-size: 16px;
     font-weight: 600;
@@ -523,10 +513,12 @@ transform: scale(110%);
     margin: 8px 0 8px;
     color: #f0eeee;
 }
+
 .product-container .box .content{
     display: flex;
     justify-content: space-around;
 }
+
 .product-container .box .content span{
     padding: 0 16px;
     border: 1px solid black;
@@ -535,6 +527,7 @@ transform: scale(110%);
     font-weight: 500;
     border-radius: 4px;
 }
+
 .product-container .box .content a{
    padding:0 16px; 
    border: 2px solid var(--main-color);
@@ -542,22 +535,25 @@ transform: scale(110%);
    border-radius: 4px;
    text-transform: uppercase;
 }
+
 .product-container .box .content a:hover{
     background-color: var(--main-color);
     transition-property: background-color;
     transition-duration: 1s;
     transition-timing-function: linear;
 }
+
 .custormers{
     background: rgba(14, 14, 14, 0.963);
 }
+
 .Custormers-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    margin-top: 32px; 
-     
+    margin-top: 32px;      
 }
+
 .Custormers-container .box{
     border: 2px solid black;
     padding: 20px;
@@ -565,17 +561,18 @@ transform: scale(110%);
     border-radius: 10%;
     text-align: center;
     background: #cae3f4;
-
 }
+
 .Custormers-container p{
     font-size: 15px;
-
 }
+
 .Custormers-container .box h2{
     font-size: 20px;
     font-weight: 600;
     margin: 8px 0 8px;
 }
+
 .Custormers-container .box:hover{
     background-color: var(--secondary-color);
     transform: scale(105%);
@@ -583,12 +580,11 @@ transform: scale(110%);
     transition-duration: 1s;
     transition-timing-function: linear;
 }
+
 .contacts{
- 
-  padding: 50px;
+   padding: 50px;
   margin-bottom: 150px;
-  box-shadow: 2px 2px 10px 14px rgba(35, 159, 157, 0.15);
-   
+  box-shadow: 2px 2px 10px 14px rgba(35, 159, 157, 0.15);   
 }
 .contacts h2{
   font-size: 1.8rem;
@@ -596,8 +592,8 @@ transform: scale(110%);
     color: white;
     text-align: center;
     margin-bottom: 60px;
-
 }
+
 .container{
   color: black;
    background-color: #d4d2d0d3;
@@ -606,20 +602,20 @@ transform: scale(110%);
    margin: 100px;
 }
 .n ::placeholder{
-  color: rgb(255, 255, 255);
-  
-   
+  color: rgb(255, 255, 255);   
 }
+
 .container:hover{
   transform: scale(110%);
 }
+
 .n{
   padding: 20px;
   color: rgb(240, 239, 239);
   font-weight: 150px;
-  display: grid;
-  
+  display: grid;  
 } 
+
 .n button{
   color: rgb(250, 248, 248);
   margin-left: 40%;
@@ -629,23 +625,27 @@ transform: scale(110%);
   padding: 5px;
 border-radius: 10%;
 }
+
 .n button:hover{
 transform: scale(110%);
 background-color: blue;
-
 }
+
 .contacitem{
 margin-left: 30%;
 align-items: center;
 }
+
 .contacitem a{
   color: black;
   margin: 20px;
 }
+
 .contacitem a:hover{
 font-size: 20px;
   color: blue;
 }
+
 .contacts input{
 width: 100%;
 background-color:transparent;
@@ -656,6 +656,7 @@ margin: 10px;
 line-height: 20px;
 color: rgb(8, 1, 1);
 }
+
 .footer{
     display: grid;
     grid-template-columns: 2.5fr 1fr 1fr 1fr;
@@ -663,21 +664,24 @@ color: rgb(8, 1, 1);
      background: linear-gradient(90deg, #5c7a29, #c8a951);
     color: #fff;
 }
+
 .footer-box h3{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
+
 .footer-box p{
     font-size: 14px;
 }
+
 .social{
     display: flex;
     align-items: center;
     column-gap: 20px;
     margin-top: 20px;
-
 }
+
 .social a .bx{
     font-size: 24px;
     color:var(--text-color);
@@ -685,22 +689,25 @@ color: rgb(8, 1, 1);
     background: var(--secondary-color);
     border-radius: 4px;
 }
+
 .social a .bx:hover{
     background: var(--main-color);
     color: var(--bg-color);
 }
+
 .footer-box li a{
     color: var(--text-color);
 }
+
 .footer-box li a:hover{
     color: var(--main-color);
 }
+
 .contact{
     display: flex;
     flex-direction: column;
     row-gap: 8px;
 }
-
 
 .popup {
   display: none;
@@ -716,7 +723,6 @@ color: rgb(8, 1, 1);
   animation: fadeIn 0.3s ease;
 }
 
-
 .popup-content {
   background: #fff;
   padding: 20px 30px;
@@ -725,7 +731,6 @@ color: rgb(8, 1, 1);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   animation: scaleIn 0.2s ease;
 }
-
 
 .popup-content button {
   padding: 8px 16px;
@@ -747,7 +752,6 @@ color: rgb(8, 1, 1);
   from { transform: scale(0.6); }
   to { transform: scale(1); }
 }
-
 
 @media (max-width: 992px) {
   header {
@@ -815,11 +819,7 @@ color: rgb(8, 1, 1);
     font-size: 0.9rem;
   }
 }
-/* ============================= */
-/*   RESPONSIVE DESIGN BEGINS    */
-/* ============================= */
 
-/* Large Tablets / Small Laptops */
 @media (max-width: 1100px) {
   header {
     padding: 18px 40px;
@@ -834,10 +834,8 @@ color: rgb(8, 1, 1);
   }
 }
 
-/* Tablets */
 @media (max-width: 900px) {
 
-  /* NAV */
   #menuicon {
     display: block;
   }
@@ -852,28 +850,27 @@ color: rgb(8, 1, 1);
     padding: 20px 0;
     transition: 0.3s ease;
   }
+  
   .navbar.active {
     right: 0;
   }
+  
   .navbar a {
     padding: 10px 20px;
     border-bottom: 1px solid #333;
   }
-
-  /* HOME */
+  
   .home {
     grid-template-columns: 1fr;
     text-align: center;
     padding: 40px 20px;
   }
 
-  /* ABOUT */
   .about-contener {
     grid-template-columns: 1fr;
     padding: 40px 20px;
   }
 
-  /* RESERVATION SECTION */
   .reservation-section {
     flex-direction: column;
     padding: 60px 40px;
@@ -886,7 +883,6 @@ color: rgb(8, 1, 1);
     margin: auto;
   }
 
-  /* TEAM SECTION */
   .team-contents {
     grid-template-columns: 1fr;
     margin: 20px;
@@ -902,26 +898,22 @@ color: rgb(8, 1, 1);
     grid-template-columns: 1fr 1fr;
   }
 
-  /* PRODUCTS */
   .product-container {
     grid-template-columns: 1fr 1fr;
     padding: 20px;
   }
 
-  /* CUSTOMERS */
   .Custormers-container {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
 
-  /* FOOTER */
   .footer {
     grid-template-columns: 1fr 1fr;
     padding: 20px;
   }
 }
 
-/* Mobile Phones */
 @media (max-width: 600px) {
 
   header {
@@ -936,7 +928,6 @@ color: rgb(8, 1, 1);
     font-size: 1rem;
   }
 
-  /* RESERVATION */
   .left-content h1 {
     font-size: 50px;
   }
@@ -948,8 +939,7 @@ color: rgb(8, 1, 1);
   .reservation-section {
     padding: 40px 20px;
   }
-
-  /* TEAM */
+  
   .main-photo img {
     width: 100%;
   }
@@ -957,30 +947,25 @@ color: rgb(8, 1, 1);
     grid-template-columns: 1fr;
   }
 
-  /* PRODUCT */
   .product-container {
     grid-template-columns: 1fr;
   }
 
-  /* CUSTOMERS */
   .Custormers-container {
     grid-template-columns: 1fr;
   }
 
-  /* CONTACT */
   .container {
     margin: 20px;
     padding: 20px;
   }
 
-  /* FOOTER */
   .footer {
     grid-template-columns: 1fr;
     text-align: center;
   }
 }
 
-/* Very Small Phones */
 @media (max-width: 400px) {
 
   .home-text h1 {
@@ -1000,3 +985,4 @@ color: rgb(8, 1, 1);
     padding: 20px;
   }
 }
+
